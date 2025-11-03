@@ -1,2 +1,0 @@
-from google.colab import files
-files.download("/content/drive/MyDrive/period_blood_image_model.h5")
