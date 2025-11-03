@@ -193,3 +193,4 @@ st.markdown(
     "<p style='text-align:center; color:gray;'>🩸 This tool is for educational use only. Consult a doctor for medical advice.</p>",
     unsafe_allow_html=True
 )
+
