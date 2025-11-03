@@ -58,7 +58,7 @@ st.markdown("""
 # ----------------------------------
 # 🧠 LOAD MODELS
 # ----------------------------------
-MAIN_MODEL_PATH = "period_blood_image_model.h5"
+MAIN_MODEL_PATH = "models/period_blood_image_model.h5"
 
 @st.cache_resource
 def load_main_model():
@@ -193,4 +193,5 @@ st.markdown(
     "<p style='text-align:center; color:gray;'>🩸 This tool is for educational use only. Consult a doctor for medical advice.</p>",
     unsafe_allow_html=True
 )
+
 
